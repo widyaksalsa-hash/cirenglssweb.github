@@ -1,0 +1,240 @@
+<!-- SECTION PRODUK CIRENG LSS -->
+<section class="produk-section" id="produk">
+  <div class="produk-header">
+    <span class="produk-label">🍽️ our products</span>
+    <h2>Cireng Isi LSS</h2>
+    <p>
+      Gurih, chewy, dan isiannya bikin nagih! 🤍
+      Pilih rasa favoritmu dan cobain cireng isi dari LSS.
+    </p>
+  </div>
+
+  <!-- GAMBAR PRODUK -->
+  <div class="produk-image">
+    <img 
+      src="cireng-4-rasa.png" 
+      alt="Cireng Isi LSS - Ayam Original, Ayam Rendang, Keju, dan Jando"
+    >
+  </div>
+
+  <!-- BEST SELLER -->
+  <div class="best-seller">
+    <span>🔥 BEST SELLER</span>
+    <h3>Ayam Pedas 🌶️</h3>
+    <p>
+      Rasa favorit yang paling banyak dicari!
+      Gurihnya ayam dengan sensasi pedas yang bikin susah berhenti.
+    </p>
+  </div>
+
+  <!-- DAFTAR RASA -->
+  <div class="produk-grid">
+
+    <div class="produk-card">
+      <div class="emoji">🍗</div>
+      <h3>Ayam Original</h3>
+      <p>
+        Isian ayam suwir yang gurih dan savory,
+        tanpa rasa pedas.
+      </p>
+      <span class="harga">Rp5.000</span>
+    </div>
+
+    <div class="produk-card">
+      <div class="emoji">🌶️</div>
+      <h3>Ayam Pedas</h3>
+      <span class="badge">BEST SELLER</span>
+      <p>
+        Ayam suwir dengan cita rasa pedas yang
+        gurih dan nagih.
+      </p>
+      <span class="harga">Rp5.000</span>
+    </div>
+
+    <div class="produk-card">
+      <div class="emoji">🥩</div>
+      <h3>Ayam Rendang</h3>
+      <p>
+        Perpaduan cireng chewy dengan isian
+        ayam berbumbu rendang yang kaya rasa.
+      </p>
+      <span class="harga">Rp5.000</span>
+    </div>
+
+    <div class="produk-card">
+      <div class="emoji">🧀</div>
+      <h3>Keju</h3>
+      <p>
+        Isian keju yang creamy, gurih,
+        dan melted di setiap gigitan.
+      </p>
+      <span class="harga">Rp5.000</span>
+    </div>
+
+    <div class="produk-card">
+      <div class="emoji">🥩</div>
+      <h3>Jando</h3>
+      <p>
+        Isian jando yang dipotong kecil-kecil
+        dengan rasa gurih dan juicy.
+      </p>
+      <span class="harga">Rp5.000</span>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .produk-section {
+    padding: 70px 20px;
+    background: linear-gradient(180deg, #fffaf3, #fff3e2);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #4b2e20;
+  }
+
+  .produk-header {
+    max-width: 700px;
+    margin: 0 auto 35px;
+  }
+
+  .produk-label {
+    display: inline-block;
+    background: #f7d9b5;
+    color: #75452c;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  .produk-header h2 {
+    font-size: 38px;
+    margin: 5px 0 10px;
+    font-weight: 800;
+  }
+
+  .produk-header p {
+    color: #806657;
+    line-height: 1.7;
+  }
+
+  /* GAMBAR */
+  .produk-image {
+    max-width: 900px;
+    margin: 0 auto 35px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 12px 35px rgba(90, 55, 30, 0.15);
+  }
+
+  .produk-image img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  /* BEST SELLER */
+  .best-seller {
+    max-width: 650px;
+    margin: 0 auto 45px;
+    padding: 25px;
+    background: #fff;
+    border: 2px dashed #e5a35c;
+    border-radius: 22px;
+    box-shadow: 0 8px 25px rgba(100, 60, 30, 0.08);
+  }
+
+  .best-seller span {
+    display: inline-block;
+    background: #ef7d32;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .best-seller h3 {
+    margin: 12px 0 7px;
+    font-size: 25px;
+  }
+
+  .best-seller p {
+    color: #806657;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* PRODUCT CARD */
+  .produk-grid {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 20px;
+  }
+
+  .produk-card {
+    background: rgba(255,255,255,0.9);
+    padding: 25px 20px;
+    border-radius: 22px;
+    border: 1px solid #f1dfcd;
+    transition: 0.3s ease;
+  }
+
+  .produk-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(90, 55, 30, 0.12);
+  }
+
+  .produk-card .emoji {
+    font-size: 38px;
+    margin-bottom: 8px;
+  }
+
+  .produk-card h3 {
+    margin: 5px 0 10px;
+    font-size: 19px;
+  }
+
+  .produk-card p {
+    color: #806657;
+    font-size: 14px;
+    line-height: 1.6;
+    min-height: 67px;
+  }
+
+  .harga {
+    display: inline-block;
+    margin-top: 8px;
+    color: #c45c27;
+    font-weight: 800;
+    font-size: 17px;
+  }
+
+  .badge {
+    background: #f07832;
+    color: white !important;
+    padding: 4px 9px;
+    border-radius: 12px;
+    font-size: 9px !important;
+    font-weight: 700;
+    display: inline-block;
+  }
+
+  @media (max-width: 600px) {
+    .produk-header h2 {
+      font-size: 30px;
+    }
+
+    .produk-section {
+      padding: 50px 15px;
+    }
+
+    .produk-image {
+      border-radius: 18px;
+    }
+  }
+</style>
